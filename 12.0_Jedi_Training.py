@@ -10,10 +10,10 @@ All questions are about the final code in Chapter 12:
 They are the amount of pixels the ball will move up or down in a second
 
 3.) How many pixels/sec does the ball move in the x-direction?
-dy * 60 will determine the amount
+dx * 60 will determine the amount
 
 4.) How many pixels/sec does the ball move in the y-direction?
-dx * 60 will determine the amount
+dy * 60 will determine the amount
 
 5.) Which method is run 60 times/second?
 
@@ -21,7 +21,7 @@ dx * 60 will determine the amount
 make the ball bounce off the border.
 
 7.) What does this code do?  self.pos_y += self.dy
-determine how fast the bal is moving
+determine how fast the ball is moving
 
 8.) What is the width of the window?
 640 pixels.
